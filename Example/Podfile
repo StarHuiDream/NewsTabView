@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NewsTabView_Example' do
+  pod 'NewsTabView', :path => '../'
+
+  target 'NewsTabView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
