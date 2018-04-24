@@ -1,0 +1,6 @@
+framework module NewsTabView {
+  umbrella header "NewsTabView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "NewsTabView",
+  "version": "0.1.0",
+  "summary": "A short description of NewsTabView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Number4928/NewsTabView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Number4928": "StarHuiDream@yeah.net"
+  },
+  "source": {
+    "git": "https://github.com/Number4928/NewsTabView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NewsTabView/Classes/**/*"
+}

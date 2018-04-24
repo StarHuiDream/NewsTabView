@@ -1,0 +1,16 @@
+PODS:
+  - NewsTabView (0.1.0)
+
+DEPENDENCIES:
+  - NewsTabView (from `../`)
+
+EXTERNAL SOURCES:
+  NewsTabView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NewsTabView: b71760976dc990d824830346b8aaed530dca5964
+
+PODFILE CHECKSUM: e48cf7383f8b335f19eed47d643fc8e29b454c63
+
+COCOAPODS: 1.4.0
