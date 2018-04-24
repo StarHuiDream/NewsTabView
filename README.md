@@ -22,7 +22,7 @@ pod 'NewsTabView'
 
 ## Author
 
-Number4928, StarHuiDream@yeah.net
+StarHui, StarHuiDream@yeah.net
 
 ## License
 

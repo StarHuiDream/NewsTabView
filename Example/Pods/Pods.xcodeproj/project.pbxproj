@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		3CDFFD5D8FB738EAE097CEA6381F13D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		51F6124C24AFB74B309135B12B860ED6 /* Pods-NewsTabView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E16753225CCC6693407B8363758FB0C8 /* Pods-NewsTabView_Tests-dummy.m */; };
+		5A71A3907F6B03A63E058BD774B644CA /* NewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812986E61E6CBD0F43278EEB64CFBB01 /* NewsTabView.swift */; };
 		5F166C0DF2E59150C5D373EEAEA84223 /* Pods-NewsTabView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1FE851CF1CE3922E8C00F11623C63B /* Pods-NewsTabView_Example-dummy.m */; };
-		6F821C2B4BD0E74504114DABEFB97C10 /* NewsTabView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C12A2423E41801E173D8C1AAB1FF0E85 /* NewsTabView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76212635E4F9CC40ECF9F63D3A30C39A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957638130B86A6D0A23DCA03B84333A9 /* ReplaceMe.swift */; };
+		6F821C2B4BD0E74504114DABEFB97C10 /* NewsTabView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5106D5AB45EB849BA45C1AEF39D204 /* NewsTabView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		774BB519CB95754BA088C039E54A5E47 /* Pods-NewsTabView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F08267B2740207CD6888F54858F937 /* Pods-NewsTabView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EDE9A251CAB19C5E2F5B90FA97FFFBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A07042C0552FD7386DC5655CC67A2C7B /* Pods-NewsTabView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 731BAE8EC88993793AD0D83D04E0038B /* Pods-NewsTabView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B96ABCD0CE10CEBA478EA725490B8DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FD68D22C8E95EB9D76ED2C3E7958DE09 /* NewsTabView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB494457814CE54FD4C47BFDA6FAC0B2 /* NewsTabView-dummy.m */; };
+		EC94A3922C079DA832A14A7DDC2AD28F /* NewsTabView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83578E880D292B197AC7A2EC9F82E760 /* NewsTabView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,41 +30,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B1CA5E0FFF6BBDA563D7FB4E4706C34 /* NewsTabView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NewsTabView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C354D95AE0B5F5802F6D3303E31242A /* NewsTabView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NewsTabView.modulemap; sourceTree = "<group>"; };
 		12D137BB300E9A6FEA87D146D7C893F8 /* Pods_NewsTabView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NewsTabView_Example.framework; path = "Pods-NewsTabView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CEA3709B989F4F1172443CEF7B04350 /* NewsTabView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NewsTabView.framework; path = NewsTabView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2370CBEAB1B5796B73A9123C04267744 /* Pods-NewsTabView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsTabView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2C230FD0B84052E09C678D2E158F997B /* Pods-NewsTabView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewsTabView_Example.modulemap"; sourceTree = "<group>"; };
-		2CEE2BA7D64B280340B372D5FEB3F09C /* NewsTabView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NewsTabView-prefix.pch"; sourceTree = "<group>"; };
 		37546157A8E13E82FED52FDF4487692D /* Pods-NewsTabView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsTabView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3AEF52D1F2A2E883AACB38AD2CC02364 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E7C774EE2A9F97490F9594CFA551D31 /* NewsTabView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NewsTabView.xcconfig; sourceTree = "<group>"; };
+		4296061ADCBB4B399CC889821C4F203C /* NewsTabView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NewsTabView.xcconfig; sourceTree = "<group>"; };
 		46B1DC5CACB98EC167A93C60D1417022 /* Pods-NewsTabView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsTabView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AEA1A91C0B5B7A9E4DEA06C9AB55212 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		50D582E8904BBBBD3FAFB30B4DBD6C9D /* Pods_NewsTabView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NewsTabView_Tests.framework; path = "Pods-NewsTabView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F08267B2740207CD6888F54858F937 /* Pods-NewsTabView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsTabView_Example-umbrella.h"; sourceTree = "<group>"; };
 		55A60838DA385C44565CC2D1117949EC /* Pods-NewsTabView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsTabView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		587FD92628616944A0ADDE2A591B14C7 /* Pods-NewsTabView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsTabView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D9218CDDE939D6B55B786378C8A2330 /* NewsTabView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NewsTabView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5DC543A8B86174E1D60DD8AFD993D3EA /* Pods-NewsTabView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsTabView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6505C115DA7D46F08CCC60E2C3EDB6EB /* Pods-NewsTabView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsTabView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6AD0799D96842FE45FA8777E3561C784 /* Pods-NewsTabView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsTabView_Example-resources.sh"; sourceTree = "<group>"; };
+		6F5106D5AB45EB849BA45C1AEF39D204 /* NewsTabView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NewsTabView-umbrella.h"; sourceTree = "<group>"; };
 		731BAE8EC88993793AD0D83D04E0038B /* Pods-NewsTabView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewsTabView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7E0B6EB0A2F96997D77D433398DC2370 /* Pods-NewsTabView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsTabView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		812986E61E6CBD0F43278EEB64CFBB01 /* NewsTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NewsTabView.swift; path = NewsTabView/Classes/NewsTabView.swift; sourceTree = "<group>"; };
 		81D3041A9417DDBE9D37A59C39543C04 /* Pods-NewsTabView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsTabView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		83578E880D292B197AC7A2EC9F82E760 /* NewsTabView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NewsTabView-dummy.m"; sourceTree = "<group>"; };
 		9135F4A10EBA69E6A453D1AB13AF42DD /* Pods-NewsTabView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsTabView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94C1B7AB33D8ED4E8540AF009992E661 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		957638130B86A6D0A23DCA03B84333A9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NewsTabView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		97D65489D6854553B6DB3BE8EF429EEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9DB332861423A17505F8C4562D6753CB /* Pods-NewsTabView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsTabView_Tests-resources.sh"; sourceTree = "<group>"; };
 		A0731BF814DCB00F3EA9F410E4BD75A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB494457814CE54FD4C47BFDA6FAC0B2 /* NewsTabView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NewsTabView-dummy.m"; sourceTree = "<group>"; };
+		AA6A10991751C6DD69086C49830A50B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC6AC6B8C8458BE35E373F264F43DF9E /* Pods-NewsTabView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewsTabView_Tests.modulemap"; sourceTree = "<group>"; };
-		C12A2423E41801E173D8C1AAB1FF0E85 /* NewsTabView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NewsTabView-umbrella.h"; sourceTree = "<group>"; };
-		C2DD2902228A7084B059A3C565A7FD66 /* NewsTabView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NewsTabView.modulemap; sourceTree = "<group>"; };
 		D56D26DC1E56E8507A36890CD4B7D3F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16753225CCC6693407B8363758FB0C8 /* Pods-NewsTabView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsTabView_Tests-dummy.m"; sourceTree = "<group>"; };
 		FA1FE851CF1CE3922E8C00F11623C63B /* Pods-NewsTabView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsTabView_Example-dummy.m"; sourceTree = "<group>"; };
+		FBF21C23DD15321E42EF89CCAB6EB4C7 /* NewsTabView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NewsTabView-prefix.pch"; sourceTree = "<group>"; };
+		FCC9807EB501031567675079B7D5D0AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,47 +104,47 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		196A34D8B536BEF6B64DF406107E615C /* NewsTabView */ = {
-			isa = PBXGroup;
-			children = (
-				957638130B86A6D0A23DCA03B84333A9 /* ReplaceMe.swift */,
-				7C2E3E897F16BAE6FFAC479FB5E5B43F /* Pod */,
-				465C8BC9F86E154EDD92420AEEB4DD7D /* Support Files */,
-			);
-			name = NewsTabView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		2C5AEC5E363B882B6EAF786D91D863B9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				196A34D8B536BEF6B64DF406107E615C /* NewsTabView */,
+				5F331FC36189F62F53F87C71F9C1B44A /* NewsTabView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		465C8BC9F86E154EDD92420AEEB4DD7D /* Support Files */ = {
+		3DAE0941CB2C12F51AD7E0885E7F915D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3AEF52D1F2A2E883AACB38AD2CC02364 /* Info.plist */,
-				C2DD2902228A7084B059A3C565A7FD66 /* NewsTabView.modulemap */,
-				3E7C774EE2A9F97490F9594CFA551D31 /* NewsTabView.xcconfig */,
-				AB494457814CE54FD4C47BFDA6FAC0B2 /* NewsTabView-dummy.m */,
-				2CEE2BA7D64B280340B372D5FEB3F09C /* NewsTabView-prefix.pch */,
-				C12A2423E41801E173D8C1AAB1FF0E85 /* NewsTabView-umbrella.h */,
+				4AEA1A91C0B5B7A9E4DEA06C9AB55212 /* LICENSE */,
+				5D9218CDDE939D6B55B786378C8A2330 /* NewsTabView.podspec */,
+				FCC9807EB501031567675079B7D5D0AC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		464FA33BFCEDEDD435568CC880A24FB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA6A10991751C6DD69086C49830A50B4 /* Info.plist */,
+				0C354D95AE0B5F5802F6D3303E31242A /* NewsTabView.modulemap */,
+				4296061ADCBB4B399CC889821C4F203C /* NewsTabView.xcconfig */,
+				83578E880D292B197AC7A2EC9F82E760 /* NewsTabView-dummy.m */,
+				FBF21C23DD15321E42EF89CCAB6EB4C7 /* NewsTabView-prefix.pch */,
+				6F5106D5AB45EB849BA45C1AEF39D204 /* NewsTabView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NewsTabView";
 			sourceTree = "<group>";
 		};
-		7C2E3E897F16BAE6FFAC479FB5E5B43F /* Pod */ = {
+		5F331FC36189F62F53F87C71F9C1B44A /* NewsTabView */ = {
 			isa = PBXGroup;
 			children = (
-				94C1B7AB33D8ED4E8540AF009992E661 /* LICENSE */,
-				0B1CA5E0FFF6BBDA563D7FB4E4706C34 /* NewsTabView.podspec */,
-				97D65489D6854553B6DB3BE8EF429EEB /* README.md */,
+				812986E61E6CBD0F43278EEB64CFBB01 /* NewsTabView.swift */,
+				3DAE0941CB2C12F51AD7E0885E7F915D /* Pod */,
+				464FA33BFCEDEDD435568CC880A24FB6 /* Support Files */,
 			);
-			name = Pod;
+			name = NewsTabView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7D068139F52CE7D833067A79599593CB /* Pods-NewsTabView_Tests */ = {
@@ -254,7 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 377280CBCBD3111722F97269CB8715F0 /* Build configuration list for PBXNativeTarget "NewsTabView" */;
 			buildPhases = (
-				0E6403135F017C87798D49AC80871249 /* Sources */,
+				6BD8F3134709460419383CDDFE27E32E /* Sources */,
 				844E8B514C7D370D2EDCF809D5E3664A /* Frameworks */,
 				DC8805C55E80F71DF434CD5009A3A3F0 /* Headers */,
 			);
@@ -331,12 +331,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E6403135F017C87798D49AC80871249 /* Sources */ = {
+		6BD8F3134709460419383CDDFE27E32E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD68D22C8E95EB9D76ED2C3E7958DE09 /* NewsTabView-dummy.m in Sources */,
-				76212635E4F9CC40ECF9F63D3A30C39A /* ReplaceMe.swift in Sources */,
+				EC94A3922C079DA832A14A7DDC2AD28F /* NewsTabView-dummy.m in Sources */,
+				5A71A3907F6B03A63E058BD774B644CA /* NewsTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,7 +591,7 @@
 		};
 		AF7E90716A2ABD66A10BC424E8B239F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E7C774EE2A9F97490F9594CFA551D31 /* NewsTabView.xcconfig */;
+			baseConfigurationReference = 4296061ADCBB4B399CC889821C4F203C /* NewsTabView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -623,7 +623,7 @@
 		};
 		D43E68DA0AEB4DF7E625EFB4611B18D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E7C774EE2A9F97490F9594CFA551D31 /* NewsTabView.xcconfig */;
+			baseConfigurationReference = 4296061ADCBB4B399CC889821C4F203C /* NewsTabView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
